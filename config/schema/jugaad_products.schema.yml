@@ -1,0 +1,21 @@
+field.value.jugaad_products_jugaad_qr_code:
+  type: mapping
+  label: Default value
+  mapping:
+    value:
+      type: label
+      label: Value
+
+block.settings.jugaad_products_qr_code:
+  type: block_settings
+  label: 'QR Code block'
+  mapping:
+    logo_width:
+      type: integer
+      label: 'Width dimension of the embedded logo'
+    set_size:
+      type: integer
+      label: 'Width of the QR code'
+    set_margin:
+      type: integer
+      label: 'Margin on the QR code'

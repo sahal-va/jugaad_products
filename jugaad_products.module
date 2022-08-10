@@ -1,0 +1,21 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Jugaad Products module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function jugaad_products_theme($existing, $type, $theme, $path) {
+  return [
+    'qr_code' => [
+      'render element' => 'qr_code',
+    ],
+    'node__product' => [
+      'base hook' => 'node',
+      'render element' => 'elements',
+    ],
+  ];
+}

@@ -1,0 +1,13 @@
+jugaad_products.qr.generator:
+  path: '/image-qr-generate/{content}'
+  defaults:
+    _controller: '\Drupal\jugaad_products\Controller\JugaadProductsController::image'
+  requirements:
+    _access: 'TRUE'
+
+jugaad_products.qr.url:
+  path: '/image-qr-generate-with-url'
+  defaults:
+    _controller: '\Drupal\jugaad_products\Controller\JugaadProductsController::withUrl'
+  requirements:
+    _access: 'TRUE'

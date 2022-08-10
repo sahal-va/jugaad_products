@@ -1,0 +1,18 @@
+{
+    "name": "drupal/jugaad_products",
+    "type": "drupal-custom-module",
+    "require": {
+        "endroid/qr-code-bundle": "^3.4"
+    },
+    "authors": [
+        {
+            "name": "Sahal VA",
+            "email": "sah.sahal7@gmail.com"
+        }
+    ],
+    "config": {
+        "allow-plugins": {
+            "endroid/installer": true
+        }
+    }
+}

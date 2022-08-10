@@ -1,0 +1,22 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - jugaad_products
+  theme:
+    - olivero
+id: qrcode
+theme: olivero
+region: sidebar
+weight: 0
+provider: null
+plugin: jugaad_products_qr_code
+settings:
+  id: jugaad_products_qr_code
+  label: 'QR Code'
+  label_display: '0'
+  provider: jugaad_products
+  logo_width: 350
+  set_size: 600
+  set_margin: 100
+visibility: {  }
